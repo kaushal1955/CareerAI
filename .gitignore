@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+client/node_modules
+server/node_modules
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# uploaded user files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# build output
+dist
+client/dist
+coverage
+.vite
+
+# misc
+.DS_Store
+*.log
